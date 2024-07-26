@@ -25,25 +25,28 @@ function Navbar() {
   whileHover="whileHover"
   whileTap="whileTap"
   transition="transition"
-  ><FaLinkedin/></motion.div>
+  ><a href="https://www.linkedin.com/in/sudipto-bhukta/"><FaLinkedin/></a></motion.div>
 
   <motion.div
   variants={container()}
   whileHover="whileHover"
   whileTap="whileTap"
-  transition="transition"><FaGithub/></motion.div>
+  transition="transition">
+ <a href="https://github.com/Sudiptobhukta"><FaGithub/></a></motion.div>
 
   <motion.div
    variants={container()}
   whileHover="whileHover"
   whileTap="whileTap"
-  transition="transition"><FaSquareXTwitter/></motion.div>
+  transition="transition">
+  <a href="https://x.com/sudiptob11"><FaSquareXTwitter/></a></motion.div>
 
   <motion.div
    variants={container()}
   whileHover="whileHover"
   whileTap="whileTap"
-  transition="transition"><FaInstagram/></motion.div>
+  transition="transition">
+  <a href="https://www.instagram.com/iamsudiptobhukta/"><FaInstagram/></a></motion.div>
 
   </div>
   </nav>
