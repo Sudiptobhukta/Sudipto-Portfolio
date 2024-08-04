@@ -5,6 +5,7 @@ import { TbBrandNodejs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiPostman } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
 import {  motion } from 'framer-motion';
 
 
@@ -82,6 +83,14 @@ function Technology() {
     animate="animate"
     className="rounded-2xl border-4 border-neutral-800 p-4 ">
     <SiPostman className="text-6xl text-orange-400" />
+    </motion.div>
+
+    <motion.div 
+    variants={iconVariants(2.5)} 
+    initial="initial"
+    animate="animate"
+    className="rounded-2xl border-4 border-neutral-800 p-4 ">
+    <SiFirebase className="text-6xl text-orange-700" />
     </motion.div>
 
     </motion.div>
