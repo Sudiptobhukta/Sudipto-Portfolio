@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import porject5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -26,6 +27,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Payment Portal",
+    image: porject5,
+    description:
+      "Web application with secure payment portal using React, Firebase, and the PayPal API, ensuring robust authentication mechanisms. This portal facilitates seamless and secure transactions with a user-friendly interface..",
+    technologies: ["React","HTML","CSS","Tailwind","Firebase","javaScript","API"],
+  },
   {
     title: "ERP Portal",
     image: project1,
